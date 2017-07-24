@@ -28,8 +28,10 @@
 *.out
 *.app
 *.tlog
-*.TMP
-ipch/
 *.res
+*.TMP
 *.idb
+*.opensdf
 *.sdf
+ipch/
+
