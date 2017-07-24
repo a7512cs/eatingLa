@@ -193,7 +193,7 @@ void DlgMember::ShowMemberOnList()
         else
             oo = L"No";
         MemberList.SetItemText(i, 1, oo);
-    }
+    }//f2
 }
 
 BOOL DlgMember::GetHateRstList(CString StrPath, CString RData, int j, CString &StrName, int &IntWeight)
