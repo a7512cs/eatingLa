@@ -198,7 +198,7 @@ void DlgMember::ShowMemberOnList()
 
 BOOL DlgMember::GetHateRstList(CString StrPath, CString RData, int j, CString &StrName, int &IntWeight)
 {
-    CString StrTmp = _T(""); 
+    CString StrTmp = _T("");
     //§ì°Q¹½À\ÆU¸ê®Æ
     StrTmp.Format(L"R%dName", j);
     GetPrivateProfileString(RData, StrTmp, L"NoMoreRst",
