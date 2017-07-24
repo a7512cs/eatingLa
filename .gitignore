@@ -31,3 +31,6 @@
 *.res
 *.TMP
 *.idb
+*.opensdf
+*.sdf
+ipch/
